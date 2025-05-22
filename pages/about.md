@@ -9,7 +9,7 @@ for the music i'm currently listening to, check out [listening](/#listening)
 
 for my current vinyl collection, check out [vinyl](/#vinyl)
 
-![bunny](/images/bunny.jpg)
+![bunny](images/bunny.jpg)
 
 ## work
 

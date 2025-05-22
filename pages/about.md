@@ -2,8 +2,7 @@
 title: about
 navbar: true
 ---
-
-cybersecurity analyst, music maker, vegan
+cybersecurity enjoyer, tinkerer, music maker, vegan
 
 for the music i'm currently listening to, check out [listening](/#listening)
 

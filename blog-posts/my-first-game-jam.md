@@ -248,3 +248,5 @@ the jam ended up being a fantastic way to force myself to come up with an idea a
 i'm really proud of what i managed to create and i'm looking forward to taking part in more jams!
 
 you can play my game, tuneful towers, [here](https://samiser.itch.io/tuneful-towers)
+
+you can also view the full source code [here](https://github.com/Samiser/tuneful-towers)

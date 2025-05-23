@@ -142,7 +142,7 @@ to solve this, i created a ui to view the current sequence for each tower and dr
 the sequence bars in the ui have their own representation of the steps in the sequence, and communication between the shooters/towers and the ui was all handled with [signals](https://docs.godotengine.org/en/stable/getting_started/step_by_step/signals.html). whenever a new shooter is placed, the gui hooks into that signal and updates the visual representation with the new step in the sequence. likewise, if the sequence is rearranged via the ui, the shooter indices are changed to represent their new position in the sequence.
 
 since all of this signal connecting was getting pretty complicated, i decided to factor out the initialisation code for the towers and the ui into their own managers so in `main.gd` im just calling the setup functions for each manager:
-```
+```gdscript
 func _ready() -> void:
     var towers := get_tree().get_nodes_in_group("tower")
     
@@ -152,7 +152,7 @@ func _ready() -> void:
 ```
 
 and in each manager i hook up the signals to wherever they need to go, for example here's the tower_manager setup function:
-```
+```gdscript
 func setup(towers_in: Array, map_in: Node) -> void:
     towers = towers_in
     map = map_in
@@ -172,7 +172,7 @@ this was one of the harder problems to tackle. each sequence could be various le
 this gets even more complicated when you consider that different towers might be playing on different subdivisions, eg chords play every half note but melody notes play every eighth note.
 
 to solve this, i kept track of a global step count for every subdivision and used that to store the note of the most recent subdivision step for each tower:
-```
+```gdscript
 func _on_tower_beat(tower: Node2D, step: int, note: int):
     var subdivision = tower.selected_subdivision
     var global_step = BeatManager.global_subdivision_steps[subdivision]
@@ -189,7 +189,7 @@ func _on_tower_beat(tower: Node2D, step: int, note: int):
 ```
 
 the simplest synergy was checking whether a chord and its bass note are being played at the same time (eg a C major chord with a C in the bass):
-```
+```gdscript
 func _check_synergy(global_step: int, tower: Node2D):
     # wait one frame to make sure both towers have updated their most recent step notes
     await get_tree().process_frame
@@ -209,7 +209,7 @@ func _check_synergy(global_step: int, tower: Node2D):
 ```
 
 more complex was checking whether the current melody note was the same as either the latest chord or bass note. this is harder because several melody notes can play over one chord/bass note, but since i've stored the most recently played note for each, i can just compare against that:
-```
+```gdscript
 func _check_melody_synergy(global_melody_step: int, melody_note: int, tower: Node2D, step: int):
     await get_tree().process_frame
 

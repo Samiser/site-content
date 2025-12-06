@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uddf xmlns="http://www.streit.cc/uddf/3.2/" version="3.2.0">
+  <generator>
+    <name>Subsurface Divelog</name>
+    <manufacturer id="subsurface">
+      <name>Subsurface Team</name>
+      <contact>
+        <homepage>http://subsurface-divelog.org/</homepage>
+      </contact>
+    </manufacturer>
+    <version>3</version>
+  </generator>
+  <mediadata/>
+  <diver>
+    <owner id="owner">
+      <personal>
+        <firstname/>
+        <lastname/>
+      </personal>
+      <equipment/>
+    </owner>
+    <buddy id="idp105553154818815">
+      <personal>
+        <firstname>Chris</firstname>
+        <lastname>Ambrose</lastname>
+      </personal>
+    </buddy>
+  </diver>
+  <divesite>
+    <divebase id="allbase">
+      <name>Subsurface Divebase</name>
+    </divebase>
+    <site id=" 8eb1949">
+      <name>Wraysbury Dive Centre</name>
+      <geography>
+        <location>Wraysbury Dive Centre</location>
+        <latitude>51.459667</latitude>
+        <longitude>-0.548257</longitude>
+      </geography>
+    </site>
+  </divesite>
+  <gasdefinitions>
+    <mix id="mix(21/0)">
+      <name>air</name>
+      <o2>0.21</o2>
+      <he>0.00</he>
+    </mix>
+  </gasdefinitions>
+  <profiledata>
+    <repetitiongroup id="idp105553155052031">
+      <dive id="idp105553155048831">
+        <informationbeforedive>
+          <link ref="idp105553154818815"/>
+          <link ref=" 8eb1949"/>
+          <divenumber>1</divenumber>
+          <datetime>2025-09-23T10:34:00</datetime>
+          <airtemperature>292.15</airtemperature>
+          <equipmentused>
+            <leadquantity>4</leadquantity>
+          </equipmentused>
+          <tripmembership ref="tripidp105553155052031"/>
+        </informationbeforedive>
+        <tankdata>
+          <link ref="mix(21/0)"/>
+          <tankpressurebegin>23400000</tankpressurebegin>
+          <tankpressureend>16000000</tankpressureend>
+        </tankdata>
+        <samples>
+          <waypoint>
+            <depth>0</depth>
+            <divetime>0</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>9.4</depth>
+            <divetime>63</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>9.4</depth>
+            <divetime>1197</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>0</depth>
+            <divetime>1260</divetime>
+          </waypoint>
+        </samples>
+        <informationafterdive>
+          <greatestdepth>9.4</greatestdepth>
+          <averagedepth>8.93</averagedepth>
+          <diveduration>1260</diveduration>
+          <lowesttemperature>290.15</lowesttemperature>
+          <notes>
+            <para>1st PADI Open Water Diver open water dive. Mostly about getting familiar with diving in the open water and going over some basic skills.
+
+Pretty short, mostly not particularly fun skill stuff, but it was fun diving and exploring a bit in the open water for the first time on the course, despite it being pretty cold!
+
+Here's all the skills we went over as part of the dive:
+- Briefing – signals introduction/review
+- Assemble, put on and adjust equipment
+- Predive safety check
+- Inflate BCD at surface
+- Entry
+- Buoyancy/weight check
+- Controlled descent
+- Trim check
+- Clearing a partially flooded mask
+- Regulator recovery and clearing
+- Underwater exploration
+- Five point ascent
+- Exit
+- Debrief and log dive
+- Post dive equipment care</para>
+          </notes>
+          <rating>
+            <ratingvalue>3</ratingvalue>
+          </rating>
+          <visibility>3</visibility>
+        </informationafterdive>
+      </dive>
+      <dive id="idp105553155059199">
+        <informationbeforedive>
+          <link ref="idp105553154818815"/>
+          <link ref=" 8eb1949"/>
+          <divenumber>2</divenumber>
+          <datetime>2025-09-23T11:37:00</datetime>
+          <airtemperature>292.15</airtemperature>
+          <equipmentused>
+            <leadquantity>4</leadquantity>
+          </equipmentused>
+          <tripmembership ref="tripidp105553155052031"/>
+        </informationbeforedive>
+        <tankdata>
+          <link ref="mix(21/0)"/>
+          <tankvolume>15.0</tankvolume>
+          <tankpressurebegin>16000000</tankpressurebegin>
+          <tankpressureend>8000000</tankpressureend>
+        </tankdata>
+        <samples>
+          <waypoint>
+            <depth>0</depth>
+            <divetime>0</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>7.7</depth>
+            <divetime>51</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>7.7</depth>
+            <divetime>1869</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>0</depth>
+            <divetime>1920</divetime>
+          </waypoint>
+        </samples>
+        <informationafterdive>
+          <greatestdepth>7.7</greatestdepth>
+          <averagedepth>7.495</averagedepth>
+          <diveduration>1920</diveduration>
+          <lowesttemperature>290.15</lowesttemperature>
+          <notes>
+            <para>2nd PADI Open Water Diver open water dive. Pretty similar to the first one, but this time with some alternate air source practice and fully flooding &amp; clearing the mask.
+
+- Briefing and dive planning
+- Assemble, put on and adjust equipment
+- Predive safety check
+- Entry
+- Weight and trim check, adjustment
+- Orally inflate BCD at surface
+- Controlled five point descent (max depth 12 metres/40 feet)
+- Fully flood and clear mask
+- Buoyancy control – establish neutral buoyancy
+- Alternate air source stationary
+- Underwater exploration
+- Alternate air source ascent – switch roles from stationary
+- Exit
+- Debrief and log dive
+- Post dive equipment care</para>
+          </notes>
+          <rating>
+            <ratingvalue>3</ratingvalue>
+          </rating>
+          <visibility>3</visibility>
+        </informationafterdive>
+      </dive>
+      <dive id="idp105553154649983">
+        <informationbeforedive>
+          <link ref="idp105553154818815"/>
+          <link ref=" 8eb1949"/>
+          <divenumber>3</divenumber>
+          <datetime>2025-09-23T13:49:00</datetime>
+          <airtemperature>292.15</airtemperature>
+          <equipmentused>
+            <leadquantity>4</leadquantity>
+          </equipmentused>
+          <tripmembership ref="tripidp105553155052031"/>
+        </informationbeforedive>
+        <tankdata>
+          <link ref="mix(21/0)"/>
+          <tankvolume>15.0</tankvolume>
+          <tankpressurebegin>13000000</tankpressurebegin>
+          <tankpressureend>7000000</tankpressureend>
+        </tankdata>
+        <samples>
+          <waypoint>
+            <depth>0</depth>
+            <divetime>0</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>9.300000000000001</depth>
+            <divetime>62</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>9.300000000000001</depth>
+            <divetime>1378</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>0</depth>
+            <divetime>1440</divetime>
+          </waypoint>
+        </samples>
+        <informationafterdive>
+          <greatestdepth>9.3</greatestdepth>
+          <averagedepth>8.9</averagedepth>
+          <diveduration>1440</diveduration>
+          <lowesttemperature>290.15</lowesttemperature>
+          <notes>
+            <para>3rd PADI Open Water Diver open water dive. Had to wait an hour after the previous two for calculated surface interval. Similar to the previous two was mostly focused on skills, with the stand out probably being fully removing the mask, putting it back on and clearing it.
+
+- Briefing and dive planning
+- Assemble, put on and adjust equipment
+- Predive safety check
+- Entry
+- Weight and trim check, adjustment
+- Controlled five point descent with visual reference
+- Buoyancy control – establish neutral buoyancy with oral BCD inflation and hover
+- Remove, replace and clear mask
+- Underwater exploration
+- Exit
+- Debrief and log dive
+- Post dive equipment care</para>
+          </notes>
+          <rating>
+            <ratingvalue>3</ratingvalue>
+          </rating>
+          <visibility>3</visibility>
+        </informationafterdive>
+      </dive>
+      <dive id="idp105553154804479">
+        <informationbeforedive>
+          <link ref="idp105553154818815"/>
+          <link ref=" 8eb1949"/>
+          <divenumber>4</divenumber>
+          <datetime>2025-09-24T10:03:00</datetime>
+          <airtemperature>290.15</airtemperature>
+          <equipmentused>
+            <leadquantity>4</leadquantity>
+          </equipmentused>
+          <tripmembership ref="tripidp105553155052031"/>
+        </informationbeforedive>
+        <tankdata>
+          <link ref="mix(21/0)"/>
+          <tankvolume>15.0</tankvolume>
+          <tankpressurebegin>21000000</tankpressurebegin>
+          <tankpressureend>14000000</tankpressureend>
+        </tankdata>
+        <samples>
+          <waypoint>
+            <depth>0</depth>
+            <divetime>0</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>10</depth>
+            <divetime>67</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>10</depth>
+            <divetime>1913</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>5</depth>
+            <divetime>1947</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>5</depth>
+            <divetime>2127</divetime>
+          </waypoint>
+          <waypoint>
+            <depth>0</depth>
+            <divetime>2160</divetime>
+          </waypoint>
+        </samples>
+        <informationafterdive>
+          <greatestdepth>10.0</greatestdepth>
+          <averagedepth>9.274</averagedepth>
+          <diveduration>2160</diveduration>
+          <lowesttemperature>290.15</lowesttemperature>
+          <notes>
+            <para>4th and final PADI Open Water Diver dive. Me and my buddy planned out the route, picking a few spots to visit in the reservoir and how to navigate back. We already covered most of the skills in the previous dives so this was mostly just a fun &amp; chill exploration of the things we wanted to see. Even though the visibility wasn't great it was still really enjoyable!!
+
+For completeness sake here's the PADI spec for the last dive, but fwiw it was mostly just a chill dive
+- Briefing and dive planning
+- Assemble, put on and adjust equipment
+- Predive safety check
+- Entry
+- Weight and trim check, adjustment
+- Five point free descent without reference
+- Underwater exploration
+- Ascent with safety stop
+- Exit
+- Debrief and log dive
+- Post dive equipment care</para>
+          </notes>
+          <rating>
+            <ratingvalue>8</ratingvalue>
+          </rating>
+          <visibility>3</visibility>
+        </informationafterdive>
+      </dive>
+    </repetitiongroup>
+  </profiledata>
+  <divetrip>
+    <trip id="tripidp105553155052031">
+      <name>Wraysbury Dive Centre 2025-09-23</name>
+      <trippart>
+        <name>Wraysbury Dive Centre 2025-09-23</name>
+        <relateddives>
+          <link ref="idp105553155048831"/>
+          <link ref="idp105553155059199"/>
+          <link ref="idp105553154649983"/>
+          <link ref="idp105553154804479"/>
+        </relateddives>
+        <notes>
+          <para>PADI Open Water Diver training and qualification</para>
+        </notes>
+      </trippart>
+    </trip>
+  </divetrip>
+</uddf>

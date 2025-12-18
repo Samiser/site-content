@@ -3,19 +3,25 @@ title: projects
 navbar: true
 ---
 
-here's some of my projects 
+here's some of my projects
 
 ## talks
 
 - [Protecting the Penguin: Linux Security Monitoring with eBPF](/pdfs/slides/protecting_the_penguin.pdf)
 - [MineBlox: a tale of profit, loss, and blue team security](/pdfs/slides/mineblox.pdf)
 
-## web apps
+## games
 
-- some games i've made [games.samiser.xyz](https://games.samiser.xyz)
-- generative music player [music.samiser.xyz](https://music.samiser.xyz/)
-- abertay's fair assessment policy [GPA calculator](https://gpa-calc.samiser.xyz/)
-- show your love for rat: [❤🐀.ws](https://❤🐀.ws)
+- [Entropic Echoes](https://wookbee.itch.io/entropic-echoes): signal decoding
+  interactive fiction
+- [Dicey Duel](https://wookbee.itch.io/dice-duel): reaction-based shooter
+- [Ambergrove](https://samiser.itch.io/ambergrove): mushroom strategy game
+- [pyraball](https://samiser.itch.io/pyraball): 3D puzzle platformer with time
+  travel
+- [Space Expedition Investigator](https://samiser.itch.io/space-expedition-investigator):
+  space investigation mystery
+- [Tuneful Towers](https://samiser.itch.io/tuneful-towers): music-based tower
+  defense
 
 ## uni work
 

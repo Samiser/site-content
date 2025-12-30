@@ -1,7 +1,9 @@
 ---
 title: about
 navbar: true
+order: 2
 ---
+
 cybersecurity enjoyer, tinkerer, music maker, vegan
 
 for the music i'm currently listening to, check out [listening](/#listening)
@@ -12,25 +14,26 @@ for my current vinyl collection, check out [vinyl](/#vinyl)
 
 ## work
 
-- **Cybersecurity Analyst** at [Jane Street](https://www.janestreet.com/)
-    - *Aug 2021 - Feb 2025*
+- **Security Analyst** at [Jane Street](https://www.janestreet.com/)
+  - _Aug 2021 - Feb 2025_
 - **Research Assistant** at [Abertay University](https://www.abertay.ac.uk/)
-    - *Nov 2020 - Jun 2021*
+  - _Nov 2020 - Jun 2021_
 - **Intern** at [F-Secure Consulting](https://www.f-secure.com/gb-en/consulting)
-    - *Jun 2020 - Sep 2020*
+  - _Jun 2020 - Sep 2020_
 
 ## volunteering
 
 - **Developer** at [Vegan Hacktivists](https://veganhacktivists.org/)
-    - *Aug 2020 - Jan 2021*
+  - _Aug 2020 - Jan 2021_
 - **Secretary** at [Abertay Hackers](https://hacksoc.co.uk/)
-    - *Sep 2019 - May 2020*
+  - _Sep 2019 - May 2020_
 
 ## education
 
-- **Ethical Hacking BSc** at [Abertay University](https://www.abertay.ac.uk/course-search/undergraduate/ethical-hacking/)
-    - *2018 - 2021*
-    - 4.4 GPA
+- **Ethical Hacking BSc** at
+  [Abertay University](https://www.abertay.ac.uk/course-search/undergraduate/ethical-hacking/)
+  - _2018 - 2021_
+  - 4.4 GPA
 
 ## socials
 

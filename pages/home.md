@@ -1,6 +1,7 @@
 ---
 title: home
 navbar: true
+order: 1
 ---
 
 welcome to my website :)
